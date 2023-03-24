@@ -20,6 +20,6 @@
 - [expo-location] - Manejo de datos para geolocalización
 
 ## Mas sobre Pablo Federiconi
-Estudio: Licenciado en Sistemas de Información
-Trabajo:Líder Técnico de entidad bancaria en Argentina, responsable de los productos de Activas (TC y Prestamos Personales)
-Objetivo: El objetivo de este curso fue aprender sobre la Tecnología React Native para pder desempeñar mejor el trabajo
+- [Estudio] : Licenciado en Sistemas de Información
+- [Trabajo] : Líder Técnico de entidad bancaria en Argentina, responsable de los productos de Activas (TC y Prestamos Personales)
+- [Objetivo]: El objetivo de este curso fue aprender sobre la Tecnología React Native para pder desempeñar mejor el trabajo
