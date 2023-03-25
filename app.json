@@ -18,16 +18,39 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.AvellanedaRecicla",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.AvellanedaRecicla",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD13QhMXBNfVgTciTDSTS2HnazfY-kkKX8"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fdb7b703-7bc2-41ed-9490-284058c89972"
+      }
+    },
+    "production":{
+      "android":{
+        "buildType":"apk"
+      }
     }
   }
 }
