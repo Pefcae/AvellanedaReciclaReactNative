@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, Image } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { styles } from './styles';
@@ -18,8 +18,8 @@ const ProductDetail = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.title}>{product?.title}</Text>
       <Text style={styles.title}>{product?.description}</Text>
-      <Text style={styles.title}>{product?.weight}</Text>
       <Text style={styles.title}>${product?.price}</Text>
+      <Image style={styles.image} source={{ uri: product?.imagen }} />
       <Button title="Add to cart" onPress={onAddToCart} color={THEME.colors.primary} />
     </View>
   );

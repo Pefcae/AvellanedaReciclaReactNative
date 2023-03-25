@@ -4,6 +4,7 @@ export const PRODUCTS = [
     categoryId: 1,
     title: 'Semilla de flores',
     description: 'Semillas para plantar flores con el compost que realices',
+    imagen:'https://previews.123rf.com/images/alterphoto/alterphoto1908/alterphoto190800085/129959361-mont%C3%B3n-de-semillas-de-lino-y-flores.jpg',
     price: 350,
   },
   {
@@ -11,6 +12,7 @@ export const PRODUCTS = [
     categoryId: 1,
     title: 'Semilla de planta',
     description: 'Semillas para plantar Oregano, tomillo, laurel, etc',
+    imagen:'https://arcencohogar.vtexassets.com/arquivos/ids/299341-1200-1200?v=637665763776600000&width=1200&height=1200&aspect=true',
     price: 500,
   },
   {
@@ -18,6 +20,7 @@ export const PRODUCTS = [
     categoryId: 2,
     title: 'Compostera básica',
     description: 'Compostera de un nivel, hecha con materiales reciclados',
+    imagen:'https://www.viviendasaludable.es/wp-content/uploads/2015/11/compost-casero.jpg',
     price: 1200,
   },
   {
@@ -25,21 +28,24 @@ export const PRODUCTS = [
     categoryId: 2,
     title: 'Compostera avanzada',
     description: 'Compostera de plastica con 3 niveles para ir cambiando el uso',
-    price: 5000,
+    imagen:'https://http2.mlstatic.com/D_NQ_NP_2X_780823-MLA52682986956_122022-F.webp',
+    price: 25000,
   },
   {
     id: 5,
     categoryId: 3,
     title: 'Chipeado',
     description: 'Conjunto de ramas y hojas secas para poner en la compostera',
-    price: 1.0,
+    imagen:'https://http2.mlstatic.com/D_NQ_NP_2X_799093-MLA50515053523_062022-F.webp',
+    price: 100,
   },
   {
     id: 6,
     categoryId: 4,
     title: 'Bolsa verde',
     description: 'Bolsa de residuo para diferenciar los residuos reciclables',
-    price: 1.0,
+    imagen:'https://http2.mlstatic.com/D_NQ_NP_2X_687227-MLA45093642762_032021-F.webp',
+    price: 250,
   },
   
 ];

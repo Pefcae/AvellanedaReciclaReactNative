@@ -14,5 +14,14 @@ export const styles = StyleSheet.create({
     fontFamily: 'Bitter-Regular',
     color: THEME.colors.title,
     padding: 10,
+
+  },
+
+  image: {
+    width: 200,
+    height: 200,
+    marginBottom: 20,
+
+
   },
 });
