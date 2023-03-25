@@ -12,6 +12,7 @@
     "@react-navigation/native": "^6.1.2",
     "@react-navigation/native-stack": "^6.9.12",
     "@reduxjs/toolkit": "^1.9.3",
+    "eas-cli": "^3.8.1",
     "expo": "~47.0.12",
     "expo-file-system": "^15.2.2",
     "expo-font": "~11.0.1",
